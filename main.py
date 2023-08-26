@@ -6,8 +6,10 @@ def main():
     ##################################################
     """
     celcius = input('Please Enter Celcius: ')
-    fahrenheit = (int(celcius) * 9/5) + 32
-
+    c = int(celcius)
+    fahrenheit = ((c) * 9/5) + 32
+    
+    print(f'Celcius: \t {c:.2f}')
     print(f'Fahrenheit: \t {fahrenheit:.2f}')
     """
     ########################################
